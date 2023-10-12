@@ -11,7 +11,8 @@ namespace TipCalc.UI.Droid
         Theme = "@style/Theme.Splash",
         NoHistory = true,
         ScreenOrientation = ScreenOrientation.Portrait)]
-    public class SplashScreen : MvxSplashScreenActivity
+    //public class SplashScreen : MvxSplashScreenActivity
+    public class SplashScreen : MvxStartActivity
     {
         public SplashScreen()
             : base(Resource.Layout.SplashScreen)
